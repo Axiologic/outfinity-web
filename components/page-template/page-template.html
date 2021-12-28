@@ -1,0 +1,22 @@
+<link href="components/page-template/page-template.css" rel="stylesheet">
+<webc-container active-page="@page" class="page-template-container" controller="components/TemplateController">
+    <div class="page-header-container">
+        <div class="page-icon" data-tag="go-home">
+            <img src="./assets/icons/app-icon.svg">
+        </div>
+        <div class="page-menu">
+            <webc-link class="menu-item" tag="about">About us</webc-link>
+            <webc-link class="menu-item" tag="whitepaper">Whitepaper</webc-link>
+            <button class="menu-item autf-button" data-tag="go-home"> Stay updated</button>
+        </div>
+    </div>
+    <div class="page-content-container">
+        <slot name="content"></slot>
+    </div>
+    <div class="page-footer-container">
+        <img src="./assets/icons/telegram.svg">
+        <img src="./assets/icons/reddit.svg">
+        <img src="./assets/icons/facebook.svg">
+        <img src="./assets/icons/twitter.svg">
+    </div>
+</webc-container>

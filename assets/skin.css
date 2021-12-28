@@ -1,0 +1,15 @@
+webc-app-root {
+    --mode: none;
+}
+:root{
+    /* Fonts */
+    --outf-font-family: 'DM Sans', sans-serif;
+}
+:root {
+    --webc-font-family: var(--outf-font-family);
+}
+
+body {
+    font-family: var(--outf-font-family);
+}
+

@@ -1,0 +1,71 @@
+.page-template-container {
+    display: grid;
+    grid-template-rows: 50px auto 100px;
+    height: 100%;
+}
+
+.page-header-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(205, 205, 205, 0.25);
+}
+
+.page-icon {
+    align-self: center;
+}
+
+.page-menu {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.page-menu a {
+    color: #193248;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.page-menu .active {
+    border-bottom: 2px solid #25d88e;
+}
+
+.page-menu .menu-item {
+    line-height: 2.5rem;
+}
+
+.page-menu .autf-button {
+    height: 35px;
+    background-color: #25d88e;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+
+.page-content-container {
+    background-color: #F5F6FD;
+}
+
+.page-footer-container {
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.page-footer-container img{
+    width: 39px;
+    height: 39px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+

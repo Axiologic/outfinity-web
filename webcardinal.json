@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "name": "Home",
+      "tag": "home",
+      "src": "./home-page/home.html"
+    },
+    {
+      "path": "/about",
+      "name": "About",
+      "tag": "about"
+    },
+    {
+      "path": "/whitepaper",
+      "name": "Whitepaper",
+      "tag": "whitepaper"
+    },
+    {
+      "path": "/stay-updated",
+      "name": "Stay updated",
+      "tag": "stay-updated"
+    }
+  ]
+}

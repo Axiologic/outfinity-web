@@ -1,0 +1,71 @@
+.content-wrapper {
+    padding: 40px;
+}
+
+.content-wrapper h4 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 24px;
+    align-items: center;
+}
+
+.text-content {
+    padding-right: 100px;
+}
+
+.email-container {
+    display: flex;
+    padding-top: 30px;
+}
+
+.email-container input {
+    border-radius: 6px;
+    margin-right: 10px;
+    padding-left: 5px;
+    border: 1px solid #dcdfed;
+}
+
+.investor-types-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 330px;
+    width: 270px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #dcdfed;
+    text-align: center;
+    font-size: 16px;
+}
+
+.card h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.card .card-icon {
+    margin: 30px 0px;
+}
+
+.card .card-text p {
+    text-align: justify;
+}

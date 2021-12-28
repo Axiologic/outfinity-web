@@ -1,0 +1,15 @@
+.autf-button{
+    height: 46px;
+    background-color: #25d88e;
+    color: #FFFFFF;
+}
+.autf-button {
+    height: 35px;
+    background-color: #25d88e;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
